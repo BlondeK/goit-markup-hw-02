@@ -147,6 +147,18 @@ body {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
+.link-address-map {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.link-address-map:hover,
+.link-address-map:focus {
+  color: #2196f3;
+}
 .footer {
   background-color: #2f303a;
 }
