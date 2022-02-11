@@ -1,3 +1,203 @@
 body {
   font-family: Roboto;
+  color: #212121;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/*======START HEADER=======*/
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #2196f3;
+}
+.logo-studio {
+  color: black;
+}
+.nav-list-link {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.nav-list-link:hover,
+.nav-list-link:focus {
+  color: #2196f3;
+}
+.contact-mail,
+.contact-tel {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.contact-mail:hover,
+.contact-mail:focus {
+  color: #2196f3;
+}
+
+.contact-tel:hover,
+.contact-tel:focus {
+  color: #2196f3;
+}
+/*======END HEADER=======*/
+
+/*======START MAIN=======*/
+.application {
+  background-color: #2f303a;
+}
+.application-text {
+  font-family: Roboto, sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.button-modal {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button-text {
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+.main-activity-list-title {
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.main-activity-list-text {
+  font-family: Roboto, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.title-list-of-services {
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.title-command {
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.command-name {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.command-profession {
+  font-family: Roboto, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+/*======END MAIN=======*/
+
+/*======START FOOTER=======*/
+.footer-address {
+  font-family: Roboto, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer {
+  background-color: #2f303a;
+}
+.logo-footer-studio {
+  color: #ffffff;
+}
+.footer-contacts {
+  font-family: Roboto, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-contacts:hover,
+.footer-contacts:focus {
+  color: #2196f3;
+}
+
+/*======PAGE PORTFOLIO=======*/
+/*======PORTFOLIO. START MAIN=======*/
+.sorting-buttons {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.sorting-buttons:hover,
+.sorting-buttons:focus {
+  background: #2196f3;
+  color: #ffffff;
+}
+.project-name {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.project-type {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
