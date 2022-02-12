@@ -100,6 +100,12 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
 }
+.section-command {
+  background: #f5f4fa;
+}
+.command-card {
+  background: #ffffff;
+}
 .title-command {
   font-weight: 700;
   font-size: 36px;
