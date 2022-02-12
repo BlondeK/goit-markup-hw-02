@@ -1,3 +1,7 @@
+:root {
+  --accent-color: #2196f3;
+  --title-color: #212121;
+}
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: #212121;
@@ -14,7 +18,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .logo-studio {
   color: black;
@@ -24,11 +28,11 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--title-color);
 }
 .nav-list-link:hover,
 .nav-list-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .contact-mail,
 .contact-tel {
@@ -40,12 +44,12 @@ body {
 }
 .contact-mail:hover,
 .contact-mail:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .contact-tel:hover,
 .contact-tel:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 /*======END HEADER=======*/
 
@@ -63,10 +67,14 @@ body {
   color: #ffffff;
 }
 .button-modal {
-  background: #2196f3;
+  background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+}
+.button-modal:hover,
+.button-modal:focus {
+  background: #188ce8;
 }
 .button-text {
   font-weight: 700;
@@ -98,7 +106,7 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-color);
 }
 .section-command {
   background: #f5f4fa;
@@ -112,7 +120,7 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-color);
 }
 .command-name {
   font-weight: 500;
@@ -120,7 +128,7 @@ body {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-color);
 }
 .command-profession {
   font-size: 16px;
@@ -147,7 +155,7 @@ body {
 }
 .link-address-map:hover,
 .link-address-map:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .footer {
   background-color: #2f303a;
@@ -163,7 +171,7 @@ body {
 }
 .footer-contacts:hover,
 .footer-contacts:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /*======PAGE PORTFOLIO=======*/
@@ -174,14 +182,14 @@ body {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-color);
   background: #f5f4fa;
   border-radius: 4px;
   cursor: pointer;
 }
 .sorting-buttons:hover,
 .sorting-buttons:focus {
-  background: #2196f3;
+  background: var(--accent-color);
   color: #ffffff;
 }
 .project-name {
@@ -189,7 +197,7 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--title-color);
 }
 .project-type {
   font-size: 16px;
