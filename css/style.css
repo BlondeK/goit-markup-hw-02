@@ -11,7 +11,7 @@ body {
 /*======START HEADER=======*/
 .logo {
   font-family: "Raleway", sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   color: #2196f3;
@@ -20,7 +20,6 @@ body {
   color: black;
 }
 .nav-list-link {
-  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -33,7 +32,6 @@ body {
 }
 .contact-mail,
 .contact-tel {
-  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -56,7 +54,6 @@ body {
   background-color: #2f303a;
 }
 .application-text {
-  font-family: Roboto, sans-serif;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -72,8 +69,7 @@ body {
   cursor: pointer;
 }
 .button-text {
-  font-family: Roboto, sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   display: flex;
@@ -83,8 +79,7 @@ body {
   color: #ffffff;
 }
 .main-activity-list-title {
-  font-family: Roboto, sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -92,16 +87,13 @@ body {
   color: #212121;
 }
 .main-activity-list-text {
-  font-family: Roboto, sans-serif;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
 }
 .title-list-of-services {
-  font-family: Roboto, sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -109,8 +101,7 @@ body {
   color: #212121;
 }
 .title-command {
-  font-family: Roboto, sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -118,7 +109,6 @@ body {
   color: #212121;
 }
 .command-name {
-  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -127,8 +117,6 @@ body {
   color: #212121;
 }
 .command-profession {
-  font-family: Roboto, sans-serif;
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -140,16 +128,12 @@ body {
 
 /*======START FOOTER=======*/
 .footer-address {
-  font-family: Roboto, sans-serif;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
 .link-address-map {
-  font-family: Roboto;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -166,8 +150,6 @@ body {
   color: #ffffff;
 }
 .footer-contacts {
-  font-family: Roboto, sans-serif;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -181,7 +163,6 @@ body {
 /*======PAGE PORTFOLIO=======*/
 /*======PORTFOLIO. START MAIN=======*/
 .sorting-buttons {
-  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -198,16 +179,12 @@ body {
   color: #ffffff;
 }
 .project-name {
-  font-family: Roboto, sans-serif;
-  font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
 }
 .project-type {
-  font-family: Roboto, sans-serif;
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
